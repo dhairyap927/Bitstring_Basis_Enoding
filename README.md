@@ -86,7 +86,8 @@ Even binary state vectors must be normalized.
 prepare_state() constructs the exact quantum state.
 
 ✔ Step 4 — Transpile Using Rotation Gates
-basis_gates = ['rx', 'ry', 'rz', 'cx']
+
+Basis gate = ['rx', 'ry', 'rz', 'cx']
 
 	
 	•	Grover’s Algorithm (Quantum Search)
