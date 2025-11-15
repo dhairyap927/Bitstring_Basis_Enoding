@@ -92,10 +92,13 @@ Basis gate = ['rx', 'ry', 'rz', 'cx']
 	
 	•	Grover’s Algorithm (Quantum Search)
 Marking specific basis states.
+
 	•	Quantum Cryptography
 Keys and classical bit sequences represented as qubit basis states.
+				
 	•	Quantum Error Correction
 Error syndromes and codewords use basis representations.
+	
 	•	QAOA (Quantum Approximate Optimization Algorithm)
 Binary variables (0/1 decisions) map naturally to basis states.
 
