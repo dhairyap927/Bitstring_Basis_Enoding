@@ -11,7 +11,9 @@ Both examples in this repository show how to:
 	•	Transpile the circuit into hardware-compatible elementary gates
 
 ├── amplitude_encoding_example.py
+
 ├── basis_encoding_example.py
+
 └── README.md
 
 
@@ -86,13 +88,13 @@ prepare_state() constructs the exact quantum state.
 ✔ Step 4 — Transpile Using Rotation Gates
 basis_gates = ['rx', 'ry', 'rz', 'cx']
 
-	•	QAOA (Quantum Approximate Optimization Algorithm)
-Binary variables (0/1 decisions) map naturally to basis states.
+	
 	•	Grover’s Algorithm (Quantum Search)
 Marking specific basis states.
 	•	Quantum Cryptography
 Keys and classical bit sequences represented as qubit basis states.
 	•	Quantum Error Correction
 Error syndromes and codewords use basis representations.
-
+	•	QAOA (Quantum Approximate Optimization Algorithm)
+Binary variables (0/1 decisions) map naturally to basis states.
 
